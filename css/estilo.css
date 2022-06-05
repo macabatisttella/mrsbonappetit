@@ -165,9 +165,8 @@
 }
 
 .otto{
-	display:flex;
-	text-align: center;
-
+	display: flex;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .otto h2{
@@ -181,7 +180,20 @@
     width: -1%;
 }
 
-.otto a img{
-	width: 200px;
-	height: 200px;
+.slide{
+	margin-top: 10px;
+	max-width: 300px;
+	left: 500px;
 }
+
+.carousel-inner{
+	height: 300px;
+}
+
+.recetas{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+	
